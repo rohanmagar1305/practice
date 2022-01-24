@@ -17,7 +17,7 @@ Feature: Login FB
       | tom        | jerry    | Fail    |
      | 7028414841 | rohan135 | Success |
  
- @Username
+ @Uname
   Scenario Outline: Test USername Field
      When I enter username as rohanm
     Then check the username as same as Entered
