@@ -1,0 +1,268 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12559155700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to the Fb login page",
+            "match": {
+              "location": "StepDefFF.FirstStepDef.go_to_the_fb_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T15:59:10.990Z",
+        "line": 17,
+        "name": "Test Login",
+        "description": "",
+        "id": "login-fb;test-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3090982700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter username as tom",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefFF.FirstStepDef.i_enter_username_as_tom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3074117600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter password as jerry",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jerry",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefFF.FirstStepDef.i_enter_password_as_jerry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12698535700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Goin should be failed",
+            "match": {
+              "location": "StepDefFF.FirstStepDef.goin_should_be_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11460101200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to the Fb login page",
+            "match": {
+              "location": "StepDefFF.FirstStepDef.go_to_the_fb_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T15:59:42.544Z",
+        "line": 18,
+        "name": "Test Login",
+        "description": "",
+        "id": "login-fb;test-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3065157100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter username as 7028414841",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7028414841",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefFF.FirstStepDef.i_enter_username_as_tom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3073873700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter password as rohan135",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rohan135",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefFF.FirstStepDef.i_enter_password_as_jerry(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26297292400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Goin should be failed",
+            "match": {
+              "location": "StepDefFF.FirstStepDef.goin_should_be_failed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11554790400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to the Fb login page",
+            "match": {
+              "location": "StepDefFF.FirstStepDef.go_to_the_fb_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-24T16:00:26.466Z",
+        "line": 21,
+        "name": "Test USername Field",
+        "description": "",
+        "id": "login-fb;test-username-field",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3055130000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter username as rohanm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rohanm",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefFF.FirstStepDef.i_enter_username_as_tom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28612000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "check the username as same as Entered",
+            "match": {
+              "location": "StepDefFF.FirstStepDef.check_the_username_as_same_as_entered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          },
+          {
+            "name": "@Username"
+          }
+        ]
+      }
+    ],
+    "name": "Login FB",
+    "description": "  I want to check login",
+    "id": "login-fb",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FirstFeatureFile.feature",
+    "tags": [
+      {
+        "name": "@Facebook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
